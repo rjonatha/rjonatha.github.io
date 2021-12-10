@@ -81,10 +81,27 @@
 
         </div>
 
-    </main>
-    <main id = "main_contact">
-    <script type="text/javascript" src="https://form.jotform.com/jsform/213367795296168"></script>
-    <br><br>
+        <div class="contactForm">
+            <!-- responses at https://formspree.io/forms/xpzbajnl/submissions -->
+            <form action="https://formspree.io/f/xjvlvgll" method="post">
+              <label for="fname">First Name</label><br>
+              <input type="text" id="fname" name="First Name" placeholder="Your name.."><br>
+          
+              <label for="lname">Last Name</label><br>
+              <input type="text" id="lname" name="Last Name" placeholder="Your last name.."><br>
+          
+              <label for="phone">Phone Number</label><br>
+              <input type="tel" id=phone name="Phone Number" placeholder="xxx-xxx-xxxx" class= "bfh-phone" required><br>
+              
+              <label for="subject">Subject</label><br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+              
+              <button type="submit" class="button" value="Submit">
+                Submit</strong>
+            </button><br>
+            </form>
+          </div>
+
     </main>
 
     <footer>
@@ -107,7 +124,6 @@
             }
         }
     </script>
-
 </body>
 
 </html>
